@@ -1,0 +1,1253 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    z-index: auto;
+    width: 100vw;
+    background-color: white;
+}
+/* DEBUT DU STYLE DU HEADER */
+header{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navBar{
+    position: fixed;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    padding: 0% 2%;
+    z-index: 2;
+}
+
+.navBar a{
+    color: black;
+}
+
+nav.navBar a.logoGoogle{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav.navBar div.liensNav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav.navBar div.liensNav ul li{
+    margin: 0px 29px;
+    display: flex;
+    text-align: center;
+    padding: 0% 0%;
+}
+.menuItems{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.navButton{
+    display: inline-block;
+    background-color: #5AAD4E;
+    height: 45px;
+    width: 235px;
+    border-radius: 0px 0px 0px 15px;
+    color: white;
+    vertical-align:auto;
+}
+.navButton a{
+    display: flex;
+    text-align: center;
+    padding: 5% 12%;
+    color: white;
+}
+.imgMenuMobile{
+    display: none;
+    position: absolute;
+    top: 6px;
+    right: 60px;
+    width: 35px;
+}
+
+/* FIN DU STYLE DU HEADER */
+
+/* DEBUT DU STYLE DE MAIN */
+.grandBlock{
+    width: 100vw;
+    height: 100vh;
+
+}
+.sectionImg1{
+    display: block;
+    background-color: #E9F9E5;
+    height: 750px;
+    width:100vW;
+    border-radius: 0% 0% 10% 100% / 0% 0% 11% 23%;
+    position: absolute;
+    top: 70px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: auto;
+}
+.divCercleVert{
+     display: flex;
+    height: 65%;
+    width: 25%;
+    position: absolute;
+    background-color: #DBF5DA;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    top: -80px;
+    left: -80px;
+   
+}
+.divTextBouton{
+    position: absolute;
+    display: table-column;
+    top: 300px;
+    left: 500px;
+    width: 100%;
+    height: 100%;
+}
+.divTextBouton .p1{
+    font-size: 55px;
+    color: #0C220A;
+}
+.divTextBouton .p2{
+    font-size: 25px;
+    color: #224626;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.img1BoutonTakeService{
+    background-color: #21481E;
+    height: 55px;
+    width: 170px;
+    border-radius: 0px 0px 0px 17px;
+    color: white;
+    box-shadow: none;
+    border: none;
+    position: relative;
+    top: 30px;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+}
+.img1DivCercleVideo{
+    height: 60px;
+    width: 60px;
+    background-color: #58AC4D;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+}
+
+div.img1TriangleVideo{
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    border-radius: 4px;
+}
+
+.divImageCirculaire{
+    height: 900px;
+    width: 900px;
+    transform:rotate(4deg);
+    border-radius: 50%;
+    left: 62%;
+    top: -180px;
+    position:absolute;
+    background-color: #56BE4E;
+}
+
+.divImageCirculaire .image1{
+    height: 890px;
+    width: 890px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+}
+
+
+
+section.sectionImg2{
+    display: block;
+    background-color: white;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+    top: -20px;
+}
+
+.divPrincipaleSection2{
+    position: absolute;
+    display: flex;
+    left: 14vw;
+    top: 1%;
+}
+
+.img2Div1{
+    display: block;
+}
+
+.divPetitFondVert{
+    height: 500px;
+    width: 365px;
+    background-color: #e1f5e3;
+    border-bottom-left-radius: 100px;
+    position: absolute;
+    display: block;
+    left: 423px;
+    top: 45px;
+}
+
+.img2ImageGauche{
+    width: 260px;
+    height: 350px;
+    border-radius: 0px 0px 0px 70px;
+    position: absolute;
+    left: 240px;
+    top: 45px;
+}
+
+.img2DivImageGauche{
+    width: 85px;
+    height: 75px;
+    background-color: #59AC4D;
+    position: absolute;
+    border-bottom-left-radius: 60px;
+    top: 365px;
+    left: 320px;
+}
+
+.img2ImageDroite{
+    width: 260px;
+    height: 350px;
+    border-radius: 0px 0px 0px 70px;
+    position: absolute;
+    top: -13px;
+    left: 537px;
+}
+
+.img2DivImageDroite{
+    width: 80px;
+    height: 75px;
+    background-color: #59AC4D;
+    position: absolute;
+    left: 630px;
+    top: -50px;
+}
+
+.img2Div2{
+    position: relative;
+    left: -9px;
+    top: 208px;
+    display: flex;
+}
+
+.img2Div3{
+    position: relative;
+    left: 820px;
+    top: 170px;
+}
+.img2Div3 .p1{
+    font-size: 45px;
+    color: #21481E;
+    position: relative;
+    top: -30px;
+}
+.img2Div3 .p2{
+    font-size: 22px;
+    color: #21481E;
+}
+.img2Div3 .p3{
+    font-size: 14px;
+    color: #21481E;
+    position: relative;
+    top: 35px;
+}
+.img2Icon{
+    background-color: #58AC4D;
+    width: 75px;
+    height: 75px;
+    border-bottom-left-radius: 20px;
+    margin: 10px;
+}
+.img2BlockIcon{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.Img2ImageIcons{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+
+
+
+section.sectionImg3{
+    display: block;
+    width: 100vw;
+    position: absolute;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    margin-top: 0px;
+}
+.img3BlockDeforme{
+    height: 500px;
+    width: 100vw;
+    border-radius: 13% 100% 0% 0% / 25% 33% 0% 0%;
+    background-color: #E9F9E5;
+    display: flex;
+    justify-content:space-between;
+}
+.img3BlocTexte{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    top: -100px;
+}
+.img3TextHapyMind .p1{
+    color: #21481E;
+    font-size: 45px;
+    display: flex;
+    position: relative;
+}
+.img3TextHapyMind .p2{
+    font-size: 20px;
+    color: #21481E;
+    position: relative;
+}
+.img3BoutonTakeService{
+    height: 40px;
+    width: 150px;
+    background-color: #21481E;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    border-radius: 0 0 0 15px;
+    position: relative;
+}
+.phact{
+    height: 370px;
+    width:250px;
+    border-radius: 0 0 0 30px;
+    background-color: #58AC4B;
+    display: flex;
+    margin-left: 30px;
+    flex-direction:column;
+}
+.phact .p1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.phact .p2{
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+div.phact .img3SignePlus{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+div.phact .img3SignePlus a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3px;
+    font-size: 20px;
+    color: white;
+}
+div.img3Image1{
+    height: 100px;
+    width: 100px;
+   
+   /* background-color: white; */
+    display: flex;
+    margin: 20px auto;
+   
+}
+div.img3Image1 img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 13px auto;
+    opacity: 100%;
+}
+.img3BlocPhysicalActivity{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -170px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+section.sectionImg4{
+    display: flex;
+    position: relative;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    bottom: -800px;
+}
+.img4TextAutomated p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 28px;
+}
+.img4Avatar{
+    height: 60px;
+    width: 60px;
+    border: 2px solid green;
+    border-radius: 50%;
+    position: absolute;
+}
+.img4Avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px auto;
+}
+.userName p{
+    display: flex;
+    margin-left: 70px;
+}
+.userP1{
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+}
+.userP2{
+    display: flex;
+    margin-top: 15px;
+    font-size: 12px;
+    position: absolute;
+}
+.fleche{
+    display: flex;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+}
+.img4Pagination{
+    display:flex;
+    flex-direction: row;
+    margin-left: 200px;
+    text-align: center;
+    justify-content:space-around;
+    width: 50px;
+    margin-top: 60px;
+}
+.ch1{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.ch2{
+    font-size: 12px;
+    color: green;
+}
+.img4VideoFile{
+    margin-top: 30px;
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    border-radius: 50px;
+}
+.img4Video video{
+    display: block;
+    border-radius: 40px;
+}
+.img4BlockProfilEtPagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+}
+.img4TextEtImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+
+
+section.sectionImg5{
+    padding-top: 10px;
+    height: 450px;
+    width: 100vw;
+    display: block;
+    position: relative;
+    margin-top: 800px;
+}
+.img5Titre{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin: 30px 0px;
+}
+.img5BlogImage{
+    height: 180px;
+    width: 280px;
+    border-radius: 40px;
+    display: block; 
+}
+.img5BlogTitre{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.img5BlogContain{
+    font-size: 13px;
+    line-height: 22px;
+}
+.img5Blog{
+    margin: 10px;
+}
+.img5BListBlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+footer{
+    display: block;
+    position: relative;
+    bottom: -1600px;
+}
+
+.footerBloc1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -450px;
+}
+.bloc1Satisfaction{
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    margin: 25px 0px;
+}
+.bloc1ALmostBefore{
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+}
+.bloc1Bouton{
+    background-color: #58AC4D;
+    display: block;
+    color: white;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+.bloc1FondVert{
+    background-color: #58AC4D;
+    width: 680px;
+    height: 300px;
+    padding-left: 60px;
+    padding-top: 50px;
+    border-radius: 0 0 0 80px;
+}
+
+.footerBloc1 img{
+    width: 350px;
+    height: 400px;
+    border-radius: 0 0 0 80px;
+    display: block;
+    position: relative;
+    top: -300px;
+    left: 390px;
+}
+
+
+.footerBloc2{
+    background-color: #E9F9E5;
+    height: 350px;
+    width: 100vw;
+    padding-top: 150px;
+    border-radius: 9% 91% 10% 0% / 12% 29% 0% 0% ;
+}
+.bloc2MenuEtReseaux .titreHealthTouch{
+    font-size: 25px;
+    color: green;
+    margin: 30px 20px;
+}
+div.menu a{
+    display: flex;
+    position: relative;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+div.menu{
+    display: flex;
+    flex-direction: row;
+}
+div.reseauxSociaux .divIcon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background-color: #BFE1B8;
+    border-radius: 50%;
+    margin: 40px 5px;
+}
+.divIcon img{
+    height: 20px;
+    width: 20px;
+    background-color: #56BE4E;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 50%;
+}
+.reseauxSociaux{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.bloc2NewsLetter .titreNewsLetter{
+    font-size: 22px;
+}
+.bloc2NewsLetter input{
+    height: 30px;
+    width: 230px;
+    border-radius: 0 0 0 10px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.bloc2NewsLetter button{
+    height: 30px;
+    width: 230px;
+    border-radius: 0 0 0 10px;
+    border: none;
+    text-align: center;
+    margin-top: 8px;
+    background-color: #58AC4F;
+    color: white;
+}
+.bloc2NewsLetter p{
+    font-size: 11px;
+    border: none;
+    margin-top: 8px;
+}
+div.bloc2Div1{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div.bloc2Div2 p{
+    font-size: 11px;
+}
+div.bloc2Div2 div{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    background-color: #6DA959;
+    border-radius: 50%;
+}
+div.bloc2Div2 div img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px auto;
+}
+div.bloc2Div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footerDivGlobale{
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+
+@media Screen and (max-width: 1500px){
+
+    .divTextBouton .p1{
+        font-size: 40px;
+        color: #0C220A;
+    }
+    .divTextBouton .p2{
+        font-size: 20px;
+
+        font-weight: lighter;
+        margin-top: 15px;
+    }
+    .img1BoutonTakeService{
+        position: relative;
+        top: 40px;
+        display: flex;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 30px;
+
+    }
+    .img1DivCercleVideo{
+        height: 60px;
+        width: 60px;
+
+        border-radius: 50%;
+        position: absolute;
+        top: -60px;
+    }
+    .divPrincipaleSection2{
+        position: absolute;
+        display: flex;
+        left: -100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTextBouton{
+        position: absolute;
+        display: table-column;
+        justify-content: center;
+        align-items: center;
+        top: 150px;
+        left: 300px;
+        width: 100%;
+        height: 100%;
+    }
+    .divCercleVert{
+        display: flex;
+       height: 50%;
+       width: 25%;
+       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+   }
+    .divImageCirculaire{
+        height:550px;
+        width: 550px;
+        transform:rotate(4deg);
+        border-radius: 50%;
+        left: 67%;
+        top: -100px;
+        position:absolute;
+  
+    }
+
+    .divImageCirculaire .image1{
+        height: 520px;
+        width: 520px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+
+    .sectionImg1{
+        height: 500px;
+    }
+    section.sectionImg2{
+  
+        width: 100vw;
+        height: 250px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 600px;
+    }
+    section.sectionImg3{
+        margin-top: 200px;
+    }
+    section.sectionImg4{
+        bottom: -950px;
+    }
+    section.sectionImg5{
+        padding-top: 10px;
+        margin-top: 950px;
+    }
+    footer{
+        bottom: -1200px;
+    }
+}
+
+
+
+
+@media Screen and (max-width: 1100px){
+    
+    .divTextBouton{
+        position: absolute;
+        display: table-column;
+        justify-content: center;
+        align-items: center;
+        top: 110px;
+        left: 150px;
+        width: 100%;
+        height: 100%;
+    }
+    .divImageCirculaire{
+        height:550px;
+        width: 550px;
+        transform:rotate(4deg);
+        border-radius: 50%;
+        left: 64%;
+        top: -100px;
+        position:absolute;
+      
+    }
+    .divImageCirculaire .image1{
+        height: 520px;
+        width: 520px;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        left: 30px;
+    }
+    .divPrincipaleSection2{
+        position: absolute;
+        display: flex;
+        left: -230px;
+    }
+    section.sectionImg2{
+        
+        width: 100vw;
+        height: 600px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2Div3{
+        position: relative;
+        left: 800px;
+        top: 170px;
+    }
+    .img2Div3 .p1{
+        font-size: 35px;
+     
+        position: relative;
+        top: -30px;
+    }
+    .img2Div3 .p2{
+        font-size:18px;
+        
+    }
+    .img2Div3 .p3{
+        font-size: 12px;
+ 
+        position: relative;
+        top: 35px;
+    }
+    
+    .img5BlogImage{
+        height: 200px;
+        width: 250px;
+    }
+    .img5Blog{
+        margin: 2px;
+    }
+
+}
+
+
+
+
+@media Screen and (max-width: 850px) {
+
+    #menuRes{
+        background-color: #4C4C4C;
+        width: 100vw;
+        height: 300px;
+    }
+   nav.navBar a.logoGoogle{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    nav.navBar div.liensNav ul li{
+        margin: 12px 0px;
+        display: flex;
+        text-align: center;
+        padding: 0% 0%;
+    }
+    .navBar a{
+        color: white;
+        
+    }
+   .navBar{
+        padding: 0;
+    }
+
+    .imgMenuMobile{
+        display: flex;
+        position: relative;
+
+    }
+    liensNav{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #4C4C4C;
+        width: 100vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(1px);
+        transition: margin-right 4s ease 1s;
+        justify-content: start;
+        align-items: start;
+    
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    .liensNav ul{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+
+    section.sectionImg2{
+        background-color: white;
+        width: 100vw;
+        height: 1000px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2Div3{
+        position: relative;
+        left: 350px;
+        top: 550px;
+    }
+    .img2ImageGauche{
+        width: 200px;
+        height: 300px;
+    }
+    .img2DivImageGauche{
+        top: 310px;
+        left: 310px;
+    }
+    .divPetitFondVert{
+        height: 430px;
+        width: 251px;
+        left: 410px;
+        top: 45px;
+    }
+    .img2ImageDroite{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: -33px;
+        left: 470px;
+    }
+    .img2DivImageDroite{
+        width: 80px;
+        height: 75px;
+        left: 540px;
+        top: -65px;
+    }
+
+    .divTextBouton{
+        position: absolute;
+        display: table-column;
+        justify-content: center;
+        align-items: center;
+        top: 110px;
+        left: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .phact{
+        height: 350px;
+        width:200px;
+        border-radius: 0 0 0 30px;
+
+        display: flex;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    .phact .p1{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .phact .p2{
+        line-height: 20px;
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+    div.phact .img3SignePlus{
+        width: 35px;
+        height: 35px;
+        margin: 15px auto;
+    }
+    section.sectionImg3{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        
+        margin-top: 550px;
+    }
+
+    .img4TextAutomated p{
+      line-height: 22px;
+      width: 400px;
+      text-align: start;
+      margin-left: -80px;
+    }
+    .img4BlockProfilEtPagination{
+        display: flex;
+        justify-content: start;
+        margin-left: 80px;
+    }
+    .img4Pagination{
+        position: relative;
+        right: -130px;
+    }
+    .img4VideoFile{
+        position: absolute;
+        width: 510px;
+        height: 360px;
+        border-radius: 50px;
+        margin-left: 80px;
+    }
+    section.sectionImg4{
+        bottom: -1300px;
+    }
+
+    .img5BlogImage{
+        height: 180px;
+        width:200px;
+        border-radius: 40px;
+        display: block; 
+    }
+    .img5Blog{
+        margin: 2px;
+    }
+    .img5BListBlog{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .img4VideoFile{
+        margin-top: 30px;
+        display: block;
+        position: absolute;
+        width: 550px;
+        height: 300px;
+        border-radius: 50px;
+    }
+    section.sectionImg5{
+        margin-top: 1200px;
+    }
+
+    .bloc1FondVert{
+        width: 500px;
+        height: 270px;
+        padding-left: 40px;
+    }
+
+    .footerBloc1 img{
+        width: 260px;
+        height: 370px;
+        position: relative;
+        top: -280px;
+        left: 280px;
+    }
+    .bloc1Satisfaction{
+        font-size: 25px;
+    }
+
+    footer{
+        bottom: -1450px;
+    }
+}
+
+
+
+
+@media Screen and (max-width: 640px) {
+    .divImageCirculaire{
+        display: none;
+    }
+    .img3BlocTexte{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .img3BoutonTakeService{
+        margin-top: 30px;
+    }
+    .phact{
+        height: 370px;
+        width:250px;
+        margin-left: 30px;
+        margin-top: 30px ;
+        flex-direction:column;
+    }
+    .phact .p1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .phact .p2{
+        line-height: 30px;
+        margin: 10px 20px;
+        font-size: 14px;
+    }
+    div.phact .img3SignePlus{
+        width: 35px;
+        height: 35px;
+        margin: 10px auto;
+    }
+    .img3BlocPhysicalActivity{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -170px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .img4VideoFile{
+        position: absolute;
+        width: 400px;
+        height: 380px;
+        border-radius: 50px;
+        margin-left: 140px;
+    }
+    section.sectionImg4{
+        bottom: -2100px;
+    }
+
+    .img5BlogImage{
+        height: 180px;
+        width: 280px;
+    }
+
+    .img5Blog{
+        margin: 20px;
+    }
+    .img5BListBlog{
+        align-items: center;
+        flex-direction: column;
+    }
+    .img4VideoFile{
+    
+        width: 400px;
+        height: 300px;
+      
+    }
+
+    section.sectionImg5{
+        margin-top: 2000px;
+    }
+
+    .bloc1FondVert{
+        width: 350px;
+        height: 270px;
+    }
+    
+    .footerBloc1 img{
+        width: 350px;
+        height: 400px;
+        top: -20px;
+        left: 40px;
+    }
+
+    div.bloc2Div1{
+        height: 300px;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 100px ;
+        margin-top: 350px;
+    }
+    .block2MenuEtReaseaux{
+        display: block;
+    }
+    .bloc2NewsLetter{
+        display: block;
+    }
+    .footerBloc1Et2{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        bottom: -2900px;
+        width: 400px;
+    }
+    .footerBloc2{
+        height: 850px;
+        width: 100vw;
+    }
+
+    .bloc2Div2{
+        display: block;
+        margin-top: 130px;
+        width: 300px;  
+        text-align: center;
+    }
+
+  
+}
+/* FIN DU STYLE DE MAIN */
