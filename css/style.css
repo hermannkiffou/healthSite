@@ -522,7 +522,7 @@ section.sectionImg5{
     width: 100vw;
     display: block;
     position: relative;
-    margin-top: 800px;
+    margin-top: 780px;
 }
 .img5Titre{
     font-size: 35px;
@@ -809,17 +809,17 @@ div.bloc2Div2{
         top: 600px;
     }
     section.sectionImg3{
-        margin-top: 200px;
+        margin-top: 500px;
     }
     section.sectionImg4{
-        bottom: -950px;
+        bottom: -1250px;
     }
     section.sectionImg5{
         padding-top: 10px;
-        margin-top: 950px;
+        margin-top: 1200px;
     }
     footer{
-        bottom: -1200px;
+        bottom: -1700px;
     }
 }
 
@@ -1041,8 +1041,7 @@ div.bloc2Div2{
         display: block;
         width: 100vw;
         position: absolute;
-        
-        margin-top: 550px;
+        margin-top: 800px;
     }
 
     .img4TextAutomated p{
@@ -1068,7 +1067,7 @@ div.bloc2Div2{
         margin-left: 80px;
     }
     section.sectionImg4{
-        bottom: -1300px;
+        bottom: -1500px;
     }
 
     .img5BlogImage{
@@ -1095,7 +1094,7 @@ div.bloc2Div2{
         border-radius: 50px;
     }
     section.sectionImg5{
-        margin-top: 1200px;
+        margin-top: 1400px;
     }
 
     .bloc1FondVert{
@@ -1116,7 +1115,7 @@ div.bloc2Div2{
     }
 
     footer{
-        bottom: -1450px;
+        bottom: -1900px;
     }
 }
 
@@ -1173,7 +1172,7 @@ div.bloc2Div2{
         margin-left: 140px;
     }
     section.sectionImg4{
-        bottom: -2100px;
+        bottom: -2350px;
     }
 
     .img5BlogImage{
@@ -1189,14 +1188,12 @@ div.bloc2Div2{
         flex-direction: column;
     }
     .img4VideoFile{
-    
         width: 400px;
         height: 300px;
-      
     }
 
     section.sectionImg5{
-        margin-top: 2000px;
+        margin-top: 2300px;
     }
 
     .bloc1FondVert{
@@ -1233,7 +1230,7 @@ div.bloc2Div2{
         justify-content: center;
     }
     footer{
-        bottom: -2900px;
+        bottom: -3400px;
         width: 400px;
     }
     .footerBloc2{
