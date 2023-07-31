@@ -26,6 +26,7 @@ header{
     background-color: white;
     padding: 0% 2%;
     z-index: 2;
+    font-size: 14px;
 }
 
 .navBar a{
@@ -34,7 +35,6 @@ header{
 
 nav.navBar a.logoGoogle{
     font-size: 2em;
-    font-weight: bold;
 }
 
 nav.navBar div.liensNav ul{
@@ -809,7 +809,7 @@ div.bloc2Div2{
         top: 600px;
     }
     section.sectionImg3{
-        margin-top: 500px;
+        margin-top: 550px;
     }
     section.sectionImg4{
         bottom: -1250px;
@@ -819,7 +819,7 @@ div.bloc2Div2{
         margin-top: 1200px;
     }
     footer{
-        bottom: -1700px;
+        bottom: -1750px;
     }
 }
 
